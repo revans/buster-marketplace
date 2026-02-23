@@ -1,19 +1,5 @@
 # Buster Marketplace
 
-A curated collection of Claude Code plugins for AI-assisted software development.
-
----
-
-## What Is This?
-
-Buster Marketplace is a plugin distribution system for Claude Code, Anthropic's official CLI assistant. It packages specialized capabilities as installable plugins that extend Claude's ability to generate production-grade code.
-
-**Core Philosophy:** Encode judgment once, compound infinitely.
-
-Rather than repeatedly describing preferences, plugins capture domain-specific taste, constraints, and patterns as reusable infrastructure. Each plugin turns explicit knowledge into automated leverage.
-
----
-
 ## Included Plugins
 
 ### Documenter (v1.0.0)
@@ -53,16 +39,6 @@ Researches implementation files, maps relationships, and produces comprehensive 
 - Claude Code CLI installed and authenticated
 - Claude Code version supporting plugins
 
-### Install from Marketplace
-
-```bash
-# Add marketplace repository
-claude plugins add buster-marketplace https://github.com/revans/buster-marketplace
-
-# Install documenter plugin
-claude plugins install documenter
-```
-
 ### Local Development
 
 ```bash
@@ -75,27 +51,6 @@ ln -s $(pwd)/documenter ~/.claude/plugins/documenter
 ```
 
 ---
-
-## Repository Structure
-
-```
-buster-marketplace/
-├── .claude-plugin/
-│   └── marketplace.json          # Marketplace metadata and plugin registry
-├── documenter/                   # Documenter plugin
-│   ├── .claude-plugin/
-│   │   └── plugin.json           # Plugin manifest
-│   ├── commands/
-│   │   └── document-system.md    # /documenter:document-system
-│   └── skills/
-│       └── system-documentation-skill/
-│           └── SKILL.md
-├── LICENSE
-└── README.md                     # This file
-```
-
----
-
 ## License
 
 MIT License - see [LICENSE](./LICENSE).
