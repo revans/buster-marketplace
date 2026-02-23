@@ -1,0 +1,20 @@
+{
+  "name": "buster-marketplace",
+  "owner": {
+    "name": "Robert Evans",
+    "email": "robert@codewranglers.org"
+  },
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "documenter",
+      "source": "./documenter",
+      "description": "Extracts architecture, design principles, and practical applications from system components into structured technical documentation",
+      "version": "1.0.0",
+      "author": {
+        "name": "Robert Evans",
+        "email": "robert@codewranglers.org"
+      }
+    }
+  ]
+}
