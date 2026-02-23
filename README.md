@@ -59,7 +59,7 @@ Researches implementation files, maps relationships, and produces comprehensive 
 # Add marketplace repository
 claude plugins add buster-marketplace https://github.com/revans/buster-marketplace
 
-# Install designer plugin
+# Install documenter plugin
 claude plugins install documenter
 ```
 
