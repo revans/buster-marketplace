@@ -2,9 +2,6 @@
 
 A curated collection of Claude Code plugins for AI-assisted software development.
 
-**Current Version:** 1.0.0
-**Owner:** Robert Evans (robert@codewranglers.org)
-
 ---
 
 ## What Is This?
@@ -63,7 +60,7 @@ Researches implementation files, maps relationships, and produces comprehensive 
 claude plugins add buster-marketplace https://github.com/revans/buster-marketplace
 
 # Install designer plugin
-claude plugins install designer
+claude plugins install documenter
 ```
 
 ### Local Development
@@ -73,8 +70,8 @@ claude plugins install designer
 git clone https://github.com/revans/buster-marketplace.git
 cd buster-marketplace
 
-# Symlink designer plugin to Claude Code
-ln -s $(pwd)/designer ~/.claude/plugins/designer
+# Symlink documenter plugin to Claude Code
+ln -s $(pwd)/documenter ~/.claude/plugins/documenter
 ```
 
 ---
