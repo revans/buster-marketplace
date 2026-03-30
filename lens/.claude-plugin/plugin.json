@@ -1,0 +1,5 @@
+{
+  "name": "lens",
+  "version": "0.1.3",
+  "description": "Lens — dynamic context switching for Claude. Load behavioral lenses to change how Claude operates. Reality is the default."
+}
